@@ -5,7 +5,9 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "cBit": "github:zhuning239/cBit#a1612bc5be7fc2be0e27c01efbbe281965605d71",
+        "I2C_LCD1602": "github:zhuning239/I2CLCD1602#c06fc391319fad8e54155ab9340cf98cdf820daf"
     },
     "files": [
         "README.md",
@@ -23,5 +25,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
